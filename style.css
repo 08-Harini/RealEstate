@@ -12,10 +12,7 @@ html,body{
     scroll-padding-top:clamp(20px,12vw,60px);
 }
 
-body{
- 
-   background:#04152D;
-}
+
 #nav{
     background-color:#04152D;
     height:80px;
@@ -120,11 +117,9 @@ body{
     max-width:620px;
     margin-bottom:30px;
 }
-
 .hero-buttons{
     margin-bottom:25px;
 }
-
 .hero-points{
     display:flex;
     flex-wrap:wrap;
@@ -139,7 +134,6 @@ body{
     border-radius:30px;
     font-size:14px;
 }
-
 .hero-points i{
     color:#E6BE57;
     margin-right:6px;
@@ -183,7 +177,7 @@ body{
 }
 
 .hero-form .btn{
-    background:#E6BE57;
+    background:#E6BE57 ;
     color:#04152D;
     border:none;
 }
@@ -339,8 +333,8 @@ body{
 .solution-card i{
 
     padding:30px;
-    margin-left:20px;
-    margin-bottom:50px;
+    margin-left:30px;
+    margin-bottom:70px;
     font-size:28px;
     color:#E6BE57;
 
@@ -575,7 +569,7 @@ body{
 }
 
 .story-card:hover{
-    transform:translateY(-10px);
+   
     border-color:#E6BE57;
 }
 
@@ -640,15 +634,15 @@ body{
 }
 
 .success-arrow{
-    width:45px;
-    height:45px;
+    width:40px;
+    height:40px;
     border-radius:50%;
     border:none;
     background:#E6BE57;
     color:#04152D;
     position:absolute;
     top:50%;
-    transform:translateY(-50%);
+    /* transform:translateY(-50%); */
     z-index:5;
 }
 
